@@ -14,4 +14,4 @@ jobs:
       if: github.ref == 'refs/heads/main'
       with:
         repo-token: ${{ secrets.GH_PAT }}
-        site-directory: 'my/my-wiki/-'
+        site-directory: 'my/wiki/-'
