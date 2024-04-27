@@ -11,7 +11,7 @@ jobs:
         token: ${{ secrets.GH_PAT }}
         package: 'my/wiki'
     - uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/main'
       with:
         repo-token: ${{ secrets.GH_PAT }}
         site-directory: 'my/wiki/-'
